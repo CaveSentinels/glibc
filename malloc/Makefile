@@ -33,7 +33,7 @@ tests := mallocbug tst-malloc tst-valloc tst-calloc tst-obstack \
 	 tst-mallocfork2
 test-srcs = tst-mtrace
 
-routines = malloc morecore mcheck mtrace obstack \
+routines = malloc massert morecore mcheck mtrace obstack \
   scratch_buffer_grow scratch_buffer_grow_preserve \
   scratch_buffer_set_array_size
 
